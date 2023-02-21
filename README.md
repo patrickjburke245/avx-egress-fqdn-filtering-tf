@@ -1,1 +1,2 @@
 # avx-egress-fqdn-filtering-tf
+Simple Terraform configuration for Aviatrix gateway Deployment, assuming you've already brought Controller under Terraform management, as well as its CoPilot association.
