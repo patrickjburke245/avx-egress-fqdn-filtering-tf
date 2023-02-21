@@ -7,7 +7,7 @@ resource "aviatrix_spoke_gateway" "dev_gateway_aws" {
   vpc_reg           = "us-east-1"
   gw_size           = "t2.micro"
   subnet            = "10.150.101.0/24"
-  single_ip_snat    = false
+  single_ip_snat    = true
   manage_ha_gateway = false
   #allocate_new_eip  = false
   #eip               = "x.y.z.a"
