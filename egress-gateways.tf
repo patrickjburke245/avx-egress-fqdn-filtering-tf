@@ -5,7 +5,7 @@ resource "aviatrix_spoke_gateway" "dev_gateway_aws" {
   gw_name           = "egress-gw"
   vpc_id            = "${module.development-vpc.vpc_id}"
   vpc_reg           = "us-east-1"
-  gw_size           = "t2.micro"
+  gw_size           = "t3.small"
   subnet            = "10.150.101.0/24"
   single_ip_snat    = true
   manage_ha_gateway = false
